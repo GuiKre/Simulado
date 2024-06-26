@@ -52,3 +52,30 @@ public class Main {
         System.out.println("Arquivo " + pessoasComEnderecoFilePath + " gerado com sucesso!");
     }
 }
+// VERSIONAMENTO DE CÓDIGO 
+// 1. Criar a pasta do projeto
+// 2. Adicionar os arquivos
+// 3. Criar o repositorio no GitHub
+// 4. Abrir a pasta e executar os comandos:
+// git init
+// git add .  <----- todos os arquivos
+// git commit -m "mensagem"
+
+// git branch -M main
+// git remote add origin (URL do servidor)
+// **git config --global user.name "nome de usuario"
+// **git config --global user.email "email"
+// git push -u origin main
+
+// ALTERAÇÃO DO CÓDIGO
+// 1. Alterar arquivos
+// 2. Abrir a pasta e executar os comandos:
+// git add .
+// git commit -m "nova mensagem"
+// git push
+
+// ABRIR O REPOSITÓRIO EM OUTRO PC
+// git clone (URL do repositório)
+
+// ATUALIZAR OS ARQUIVOS
+// git pull
