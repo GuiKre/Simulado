@@ -14,7 +14,7 @@ public class CSVReader {
                 records.add(values);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Aquivo não encontrado.");
         }
         return records;
     }

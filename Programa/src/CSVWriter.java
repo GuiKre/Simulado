@@ -11,7 +11,7 @@ public class CSVWriter {
                 bw.newLine();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Arquivo não encontrado.");
         }
     }
 }
